@@ -116,6 +116,10 @@ Func GetColor ($MaRessource)
 			$SurbriCouleur = "1946 "
 			return 0xBDA255
 
+		Case "chataignier"
+				Return 0x9B865F
+
+
 ; ----------------POTION-------------------------------------
 
 

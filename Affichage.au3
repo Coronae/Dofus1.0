@@ -19,7 +19,7 @@ Func SelectWindow()
 		;$hWnd = WinGetHandle("[ACTIVE]", "") ; If the proper set window can't be found, we use the current active window
 		MsgBox(0,"Erreur fenetre","Fenetre dofus non trouve")
 	EndIf
-	WinSetOnTop ( $hWnd, "", 1)
+	;WinSetOnTop ( $hWnd, "", 1)
 
 	FFSetDebugMode($DEBUG_DEFAULT)
 	FFSetWnd($hWnd)
@@ -34,6 +34,7 @@ Func BoxRessource()
 
 
 	$MaRessource = InputBox("Ressource Check", "Entrez votre ressource", "", "")
+	MsgBox(0, 'Message', 'Vous avez saisie :  ' & $MaRessource)
 	;GetColor($MaRessource)
 	$ColorRessource = GetColor($MaRessource)
 

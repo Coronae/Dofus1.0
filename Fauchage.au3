@@ -23,13 +23,13 @@ Func CliqueRessource($Coord, $ShadeVariation)
 
 		;MouseMove($Coord[0], $Coord[1] + 40) ; +40 car curseur decale, vue que mousemove prend en compte l'ecran total pour les coord alors que FFBestSpot ne prend en compte que dofus pour coord...... C'EST LA MERDE
 		;DetectSurbri($Coord)
-		MouseClick("left", $Coord[0], $Coord[1] + 40) ; clique sur ressource
+		MouseClick("left", $Coord[0], $Coord[1] + 40, 1, 0) ; clique sur ressource
 
 		;sleep(500)
 
 		;MouseMove($Coord[0] + 10, $Coord[1] + 91) ; Deplace la souris où est suppose être l'action ( i.e faucher, miner couper etc)
 		DetectRougeAction ($Coord)
-		MouseClick("left", $Coord[0] + 10, $Coord[1] + 91) ; 91 par defaut 71 sur portable
+		MouseClick("left", $Coord[0] + 10, $Coord[1] + 91, 1, 0) ; 91 par defaut 71 sur portable
 
 			;////////////////: DEBUG //////////////////////////
 		local $Msg = " pixels found (ShadeVariation : "&$ShadeVariation&"): the corresponding spot the closest is in "&$Coord[0]&","&$Coord[1];

@@ -39,6 +39,7 @@ FFSetDefaultSnapShot(0)
 ;-------------------------------------------------------------------------------
 
 HotKeySet("{ESC}", "Bye") ; On assigne la fonction Bye (Pour quitter) à la touche 'Echap'
+HotKeySet("^{SPACE}", "BoxRessource") ; On assigne la fonction Bye (Pour quitter) à la touche 'Echap'
 
 
 ;-------------------------------------------------------------------------------
@@ -50,7 +51,6 @@ HotKeySet("{ESC}", "Bye") ; On assigne la fonction Bye (Pour quitter) à la touch
 
 
 BoxRessource()
-MsgBox(0, 'Message', 'Vous avez saisie :  ' & $MaRessource)
 Main()
 
 Func Main()
