@@ -18,6 +18,12 @@ Func recolte()
 	Verif()
 EndFunc   ;==>Fauchage
 
+Func FastClick()
+	$Coord = MouseGetPos()
+	MouseClick("left", $Coord[0], $Coord[1], 1, 0) ; clique sur ressource
+	MouseClick("left", $Coord[0] + 10, $Coord[1] + 42, 1, 0) ; 91 par defaut 71 sur portable
+EndFunc
+
 ;Fonction qui check et clique ressource
 Func CliqueRessource($Coord, $ShadeVariation)
 

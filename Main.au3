@@ -40,7 +40,7 @@ FFSetDefaultSnapShot(0)
 
 HotKeySet("{ESC}", "Bye") ; On assigne la fonction Bye (Pour quitter) à la touche 'Echap'
 HotKeySet("^{SPACE}", "BoxRessource") ; On assigne la fonction Bye (Pour quitter) à la touche 'Echap'
-
+HotKeySet("^r", "FastClick"); en appuyant sur ctrl R on imite la récolte
 
 ;-------------------------------------------------------------------------------
 ;                             Main
