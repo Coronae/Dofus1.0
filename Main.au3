@@ -1,5 +1,4 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Compile_Both=y
 #AutoIt3Wrapper_Res_Language=1036
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #cs ----------------------------------------------------------------------------
@@ -50,17 +49,17 @@ HotKeySet("^r", "FastClick"); en appuyant sur ctrl R on imite la récolte
 
 
 
-BoxRessource()
+;BoxRessource()
 Main()
 
 Func Main()
 
 	while (1)
-		SelectWindow() ; Récupère la fenètre Dofus
+		;SelectWindow() ; Récupère la fenètre Dofus
 
-		recolte() ; Fonction de récolte
+		;recolte() ; Fonction de récolte
 		Verif()
-
+		Sleep(20)
 	WEnd
 EndFunc
 

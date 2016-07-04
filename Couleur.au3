@@ -105,17 +105,24 @@ Func GetColor ($MaRessource)
 		Case "fer"
 			$SurbriCouleur = "BCBBB2"
 			return 0xE3E2D1
-
 		Case "cuivre"
 			$SurbriCouleur = "BCBBB2" ; TODO surbri cuivre
 			return 0xD38440
-
 		Case "bronze"
 			$SurbriCouleur = "BCBBB2" ; TODO surbri bronze
 			return 0x926845
 		Case "kobalte"
 			$SurbriCouleur = "BCBBB2" ; TODO surbri bronze
 			return 0xC7D5DE
+		Case "etain"
+			$SurbriCouleur = "BCBBB2" ; TODO surbri bronze
+			return 0x6B7C55
+		Case "argent"
+			$SurbriCouleur = "BCBBB2" ; TODO surbri bronze
+			return 0xBFBFBD
+		Case "bauxite"
+			$SurbriCouleur = "BCBBB2" ; TODO surbri bronze
+			return 0x90C1B1
 
 ; ----------------BOIS-------------------------------------
 

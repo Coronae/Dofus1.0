@@ -14,14 +14,14 @@
 Func recolte()
 
 	DetectRessource()
-	Sleep(6000)  ;Temporaire, en attendant une meilleure solution
+	Sleep(1500)  ;Temporaire, en attendant une meilleure solution
 	Verif()
 EndFunc   ;==>Fauchage
 
 Func FastClick()
 	$Coord = MouseGetPos()
 	MouseClick("left", $Coord[0], $Coord[1], 1, 0) ; clique sur ressource
-	MouseClick("left", $Coord[0] + 10, $Coord[1] + 42, 1, 0) ; 91 par defaut 71 sur portable
+	MouseClick("left", $Coord[0] + 10, $Coord[1] + 42, 1, 0) ; 42 par defaut
 EndFunc
 
 ;Fonction qui check et clique ressource
